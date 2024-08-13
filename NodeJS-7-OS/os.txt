@@ -1,0 +1,6 @@
+# OS STD Library #
+
+- OS merupakan standard library yang bisa digunakan untuk mendapatkan informasi tentang 
+  sistem operasi yang digunakan
+  
+- https://nodejs.org/dist/latest-v16.x/docs/api/os.html 

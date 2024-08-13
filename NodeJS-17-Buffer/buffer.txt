@@ -1,0 +1,15 @@
+# Buffer #
+
+- Buffer merupakan object yang berisikan urutan byte dengan panjang tetap.
+
+- Buffer merupakan turunan dari tipe data Uint8Array
+
+- https://nodejs.org/dist/latest-v16.x/docs/api/buffer.html 
+
+
+
+# Buffer Encoding #
+
+- Buffer juga bisa digunakan untuk melakukan encoding dari satu encoding ke encoding yang lain
+
+- Ada banyak encoding yang didukung oleh Buffer, misal utf8, ascii,  hex, base64, base64url dan lain-lain

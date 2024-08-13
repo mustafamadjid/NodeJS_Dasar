@@ -1,0 +1,1 @@
+Halo Semua ini adalah file teks  (dibuat dari write file promises)
