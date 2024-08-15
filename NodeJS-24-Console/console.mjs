@@ -1,10 +1,21 @@
-import util from "util";
+import { Console } from "console";
+import fs from "fs";
 
-console.log(util.format("Name : %s"), "Mustafa");
+const logFile = fs.createWriteStream("NodeJS-24-Console/application.log");
+
+const log = new Console({
+  stdout: logFile,
+  stderr: logFile,
+});
+
+log.info("Hello World");
+log.error("Hello World");
+log.warn("Hello World");
+log.debug("Hello World");
 
 const person = {
-  firstName: "Eko",
-  lastName: "Kurniawan",
+  firstName: "Mustafa",
+  lastName: "Madjid",
 };
 
-console.log(util.format("Person : %j"), person);
+log.table(person);

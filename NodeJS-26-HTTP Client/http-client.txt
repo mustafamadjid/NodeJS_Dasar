@@ -1,0 +1,22 @@
+# HTTP Client #
+
+- NodeJS juga memiliki standard library untuk HTTP
+
+- Salah satu fitur di module HTTP adalah HTTP Client, dimana kita 
+  bisa melakukan simulasi HTTP Request menggunakan NodeJS
+
+- Terdapat 2 jenis module HTTP di NodeJS, HTTP dan HTTPS
+
+- https://nodejs.org/dist/latest-v16.x/docs/api/http.html 
+
+- https://nodejs.org/dist/latest-v16.x/docs/api/https.html 
+
+
+
+Web hook
+https://requestinspector.com/inspector/01j5awtct586vwd4vms6xqnpa100-53a8f490bb81453460ab
+
+https://01j5awtct586vwd4vms6xqnpa100-53a8f490bb81453460ab.requestinspector.com
+
+Beeceptor
+https://nodejs.free.beeceptor.com
